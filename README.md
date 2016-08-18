@@ -1,2 +1,0 @@
-# SW Styles
-Starter styleguide
