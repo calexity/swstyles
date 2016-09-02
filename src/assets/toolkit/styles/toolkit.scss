@@ -1,0 +1,44 @@
+/**
+ * Toolkit styles
+ */
+
+body {
+  font-family: "Gotham Rounded", Gotham, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 26px;
+  line-height: 39px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.label {
+  font-size: 10px;
+  line-height: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  border-bottom: 3px solid #48D1D1;
+}

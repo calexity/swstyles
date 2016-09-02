@@ -1,0 +1,41 @@
+---
+title: Overview | Fabricator
+fabricator: true
+---
+
+<h1>Overview</h1>
+
+<p>This is an in-process styleguide. The CSS is not yet shared with the codebase. It is primarily designed to show how styles appear and flex.</p>
+
+<!-- <h2>Usage</h2>
+
+<p>Start by adding the following files to your page:</p>
+
+<pre class="language-markup"><code class="language-markup">&lt;link rel=&quot;stylesheet&quot; href=&quot;assets/toolkit/styles/toolkit.css&quot;&gt;</code></pre>
+
+<pre class="language-markup"><code class="language-markup">&lt;script src=&quot;assets/toolkit/scripts/toolkit.js&quot;&gt;&lt;/script&gt;</code></pre> -->
+
+
+<h2>Color</h2>
+
+{{#each toolkit.colors}}
+	<div class="f-color-chips">
+	{{#each this}}
+		<div class="f-color-chip">
+			<div class="f-color-chip__name">{{@key}}</div>
+			<div class="f-color-chip__color">{{this}}</div>
+		</div>
+	{{/each}}
+	</div>
+{{/each}}
+
+<h2>Typography</h2>
+
+<p>Font family is <a class="link" href="http://www.typography.com/fonts/gotham-rounded/overview/" target="_blank">Gotham Rounded</a>. We are using Book, Medium and Bold weights.</p>
+
+<h1>H1 Heading 26px / 39px line height / Weight Med</h1>
+<h2>H2 Heading 18px / 27px lh / Weight Med</h2>
+<h3>H3 Heading 16px / 24px lh / Weight Book</h3>
+<p>Body font 12px / 18px lh / Weight Book</p>
+<p class="label">Label 10px / 15px lh / Weight Med</p>
+<p>A <a class="link" href="#">link looks like this<a> 12px / 18px lh / Weight Med</p>
